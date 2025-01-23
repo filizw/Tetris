@@ -3,8 +3,8 @@ cmake_minimum_required(VERSION 3.28)
 set(PROJECT_NAME Tetris)
 project(${PROJECT_NAME} LANGUAGES CXX)
 
-set(CMAKE_BUILD_TYPE Debug)
-#set(CMAKE_BUILD_TYPE Release)
+#set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_BUILD_TYPE Release)
 
 set(FONT_DIR ${CMAKE_CURRENT_SOURCE_DIR}/font)
 set(FONT_FILE ${FONT_DIR}/Arial.ttf)
